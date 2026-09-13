@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --color-brand-navy-dark: #06162A;
+  --color-brand-navy: #0A2240;
+  --color-brand-navy-card: #0F2C52;
+  --color-brand-navy-light: #183F72;
+  --color-brand-orange: #F37016;
+  --color-brand-orange-light: #FFA439;
+  --color-brand-orange-dark: #D95304;
+  --color-brand-olive: #2E7D32;
+  --color-brand-olive-light: #388E3C;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0A2240;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Logo Color Scheme Classes */
+.bg-navy-dark {
+  background-color: #06162A;
+}
+
+.bg-navy-main {
+  background-color: #0A2240;
+}
+
+.bg-navy-card {
+  background-color: #0F2C52;
+}
+
+.bg-navy-light {
+  background-color: #163B6B;
+}
+
+.text-navy-main {
+  color: #0A2240;
+}
+
+.text-navy-light {
+  color: #1A3E6D;
+}
+
+.border-navy-main {
+  border-color: #0A2240;
+}
+
+.border-navy-border {
+  border-color: rgba(10, 34, 64, 0.15);
+}
+
+.bg-orange-brand {
+  background-color: #F37016;
+}
+
+.bg-orange-brand-hover:hover {
+  background-color: #D95304;
+}
+
+.text-orange-brand {
+  color: #F37016;
+}
+
+.text-orange-light {
+  color: #FFA439;
+}
+
+.border-orange-brand {
+  border-color: #F37016;
+}
+
+.text-olive-brand {
+  color: #2E7D32;
+}
+
+.bg-olive-brand {
+  background-color: #2E7D32;
+}
+
+/* Living Background Keyframes & Subtle Motion Utilities */
+@keyframes ambientDrift {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes softPulseGlow {
+  0%, 100% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+.animate-ambient-drift {
+  animation: ambientDrift 28s ease infinite;
+}
+
+.animate-gentle-float {
+  animation: gentleFloat 6s ease-in-out infinite;
+}
+
+.animate-soft-glow {
+  animation: softPulseGlow 4s ease-in-out infinite;
+}

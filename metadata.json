@@ -1,0 +1,6 @@
+{
+  "name": "Grace Prayer Group Ministries (GPGM)",
+  "description": "The Place & House of Praise and Worship. Praying the scriptures, biblical marriage & family counseling, and seeking His mercy and grace in pursuit of the Kingdom of God.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
