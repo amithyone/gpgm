@@ -57,7 +57,7 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center gap-2.5 text-left group focus:outline-none"
             id="brand-logo-btn"
           >
-            <ChurchLogo size="sm" withText={true} title="GPRM" showSubtitle={false} />
+            <ChurchLogo size="sm" withText={true} title="GPGM" showSubtitle={false} />
           </button>
 
           {/* Desktop Navigation Links (One Word per page) */}

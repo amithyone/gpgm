@@ -33,7 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
           
           {/* Column 1: Ministry Info */}
           <div className="space-y-4">
-            <ChurchLogo size="md" withText={true} title="GPRM" showSubtitle={true} />
+            <ChurchLogo size="md" withText={true} title="GPGM" showSubtitle={true} />
 
             <p className="text-xs text-slate-300 leading-relaxed font-serif">
               "Grace Prayer Group Ministries, The Place & House of Praise and Worship. We pray the scriptures, calling upon the name of the LORD in spirit and in truth, seeking after HIS mercy and grace in pursuit of the righteousness of HIS Kingdom by faith."
